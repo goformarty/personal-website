@@ -10,10 +10,11 @@
 	<!-- plugins -->
 	<link rel="stylesheet" href="vendor/normalize.css">
 	<!-- 
-	    padding-top: 20px; -->
+	padding-top: 20px; -->
 	<!-- core CSS -->
-	<link rel="stylesheet" href="app/style.css">
-
+	<link rel="stylesheet" href="app/css/base.css">
+	<link rel="stylesheet" href="app/css/layout.css">
+	<link rel="stylesheet" href="app/css/modules.css">
 </head>
 <body>
 	<!-- PRELOADER -->
@@ -23,39 +24,67 @@
 	<!-- /PRELOADER -->
 	<!-- WRAPPER -->
 	<div class="page-wrapper">
-		<!-- NAVIGATION -->
-		<!-- /NAVIGATION -->
 		<!-- LANDING -->
-		<section class="full-page">
-			<div style="width:50%">
-				<h3 class="uppercase blue">Marty Stepien</h3>
-				 <br />
-				<h4>
-					Smart and driven <span class="monospace blue">Junior Developer</span> with a gift <br /> for taking complex problems and making them simple.
-				</h4>
-				<br />
-				<h4>
-					No mega ego, no primadonna, no pretentious attitude. <br /> Totally on the ball.
-				</h4>
-				<p class="monospace blue">email linkedin github</p>
+		
+		<section class="row row--banner">
+			<!-- NAVIGATION -->
+			<header class="row container-wide header" role="banner">
+				<div class="header__logo">
+					<img src="assets/img/logo-correlate.png" alt="correlate"> 
+				</div>
+				<nav class="header__nav" role="navigation">
+					<ul>
+						<li class="header__nav-about"><a href="#">About</a></li>
+						<li class="header__nav-about"><a href="#">Projects</a></li>
+						<li class="header__nav-contact current"><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- /NAVIGATION -->
+			<div class="row container-medium banner-content">
+				<h4>MARTY STEPIEN</h4>
+				<h1 class="banner-content__heading">
+					Multifunctional <span class="yellow">developer & UX designer</span> based in London — a traditionally trained designer who codes.
+				</h1>
+				<a href="#"><img src="assets/img/icon-cta.png" alt="App store"></a>
 			</div>
-			
-		</section>
-		<section class="about">
-			<div>
-				<img src="app/img/my-img.png" alt="">
-			</div>
-			<div>
-				<h3 class="monospace ">Long story short</h3>
-			<p>
-Extensive client-side leadership positions within the UK and Australia with a focus on strategy, positioning and branding, Caitlin has the ability to take something average or good and make it exponentially great. Highly analytical and a natural problem solver, Caitlin consistently goes beyond the call of duty for all of our clients and as our Managing Director; for Conductor too. With discerning interests in art, culture travel and dining out, Caitlin is Conductor’s very own restaurant critic.</p>
-			</div>
-			
 		</section>
 		<!-- /LANDING -->
 		<!-- ABOUT -->
+		<section class="row">
+			<div class="col-medium">
+				<img src="app/img/my-img.png" alt="Writing on notepaper" />
+			</div>
+			<div class="col-medium">
+				<div class="col-wide">
+					<h3 class="monospace yellow">Long story short</h3>
+					<p>
+						Extensive client-side leadership positions within the UK and Australia with a focus on strategy, positioning and branding, Caitlin has the ability to take something average or good and make it exponentially great. Highly analytical and a natural problem solver, Caitlin consistently goes beyond the call of duty for all of our clients and as our Managing Director; for Conductor too. With discerning interests in art, culture travel and dining out, Caitlin is Conductor’s very own restaurant critic.
+					</p>
+				</div>
+			</div>
+		</section>
 		<!-- /ABOUT -->
-	</div>
-	<!-- /WRAPPER -->
-</body>
-</html>
+		<!-- CV INSTA -->
+		<div class="row container-medium">
+			<div class="col-narrow">
+				<div style="border:1px solid black">
+					square
+				</div>
+			</div>
+			<div class="col-narrow">
+				<div style="border:1px solid black">
+					square
+				</div>
+			</div>
+			<div class="col-narrow">
+				<div style="border:1px solid black; padding: 30px;">
+					square
+				</div>
+			</div>
+		</div>
+		<!-- /CV INSTA -->
+
+		<!-- /WRAPPER -->
+	</body>
+	</html>
