@@ -98,12 +98,35 @@ banner-content
 	}
 
 	.banner-content__heading {
-		font-size: 3em;
+		font-size: 2.5em;
 
 
 	}
 }
-
+/* ----------------------------
+cv
+---------------------------- */
+.box-holder {
+	width: 100%;
+	border: 3px solid #000;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 250px;
+	}
+.box-frame {
+	padding: 28px 0 0;
+}
 /* ----------------------------
 features
 ---------------------------- */

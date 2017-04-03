@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Source+Code+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Cutive+Mono');
 
 
 /* ----------------------------
@@ -13,7 +13,9 @@ body
 {
 	color: #000;
 	/*background: #fff;*/
-	background-color: rgb(206,206,206);
+	/*background-color: rgb(206,206,206);*/
+	background-color: #e2e2e2;
+	
 	cursor: url('../img/cursor.png'), default;
 }
 
@@ -36,8 +38,14 @@ h6 {
 	line-height: 1.1;
 }
 
+p {
+	font-size: 0.8em;
+	line-height: 1.8;
+	text-align: justify;
+}
+
 .monospace {
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Cutive Mono', monospace;
 }
 
 .uppercase {
@@ -46,7 +54,7 @@ h6 {
 }
 
 .yellow {
-	color: #f7ff00;
+	color: #f8ff1c;
 }
 
 .green {
@@ -56,8 +64,6 @@ h6 {
 .red {
 	color:rgb(248,70,64);
 }
-
-
 
 img {
 	max-width: 100%;
