@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Source+Code+Pro:300');
 
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
@@ -21,6 +22,10 @@ img {
 }
 
 
+div {
+	padding: 20px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Lato', sans-serif;
 }
@@ -31,8 +36,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .uppercase {
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
+.blue {
+	color: #3078ff;
+}
 p {
 	font-size: 14px;
 	line-height: 25px;
