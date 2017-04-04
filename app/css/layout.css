@@ -30,7 +30,7 @@ layout
 
 .row--padding-wide 
 {
-	padding: 2.1875em 8.75em;
+	padding: 2.1875em 1.75em;
 	padding-bottom: 2.1875em;
 
 	/* 35px/16px 140px/16px*/
@@ -60,25 +60,6 @@ layout
 .col-narrow--right { margin-bottom: 1.5em; } 
 
 
-/* title top border */
-.title {
-	padding-bottom: 20px;
-}
-
-.title:after {
-    content: '';
-    display: block;
-    margin: 10px 0 0;
-    max-width: 230px;
-    border-bottom: 3px solid #000;
-}
-
-/* divider */
-.divider {
-	text-align: center;
-	font-size: 18px;
-    line-height: 26px;
-}
 
 /* ----------------------------
 wide
@@ -94,8 +75,7 @@ wide
 
 	.row--padding-wide 
 	{
-		padding-top: 5.5556em;
-		padding-bottom: 5.5556em;
+		padding: 5.5556em 8.75em;;
 		/* 100px/18px */
 	}
 

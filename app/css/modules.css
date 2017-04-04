@@ -21,7 +21,6 @@ header
 
 .header__nav {
 	float: right;
-	width: 450px;
 }
 
 .header__nav ul {
@@ -36,16 +35,13 @@ header
 }
 
 .header__nav a {
-	display: block;
-	margin-right: .2em;
-	padding: 0.6em 1em 0.4em;
-	border-radius: .3em;
-	color: #fff;
-	background: none;
+	display: inline-block;
+	font-family: 'Cutive Mono', monospace;
+	margin: 0 .8em;
 	font-size: 0.8125em;
 	/* 13px/16px */
-	font-weight: bold;
-	text-decoration: none;
+	position: relative;
+	padding-bottom: 3px;
 }
 
 .header__nav-contact a {
@@ -53,20 +49,40 @@ header
 }
 
 .current a {
-	color: #fff;
-	background: #56b880;
+	/**/
 }
 
-.header__nav a:focus { background: #000; }
-.header__nav a:hover { background: #3bb2da; }
-.header__nav a:active { background: #af0000; }
+.header__nav a:focus, 
+.header__nav a:hover, 
+.header__nav a:active { color:rgb(248,70,64); }
+
+.header__nav a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	margin: auto;
+	height: 2px;
+	left: 0;
+	bottom: -15px;
+	width: 100%;
+	background-color: rgba(248,70,64,0.8);
+	opacity: 0;
+	transition: 0.24s ease-in-out;
+}
+.header__nav a:hover:after {
+	/*width: 100%;*/
+	/*background: blue;*/
+	bottom: -4px;
+	opacity: 1;
+	transition-duration: 0.12s;
+}
 
 @media(min-width: 38em) {
 	.header {
 		padding: 2.2222em 2em;
 		/* 40px/18px - 36px/18px */
 	}
-	.header__nav { width: 12em; }
+	.header__nav { width: 20em; }
 	.header__nav a {
 		font-size: 0.8333em;
 		/* 15px/18px */
@@ -88,19 +104,30 @@ banner-content
 	/*color: #fff;*/
 	font-size: 1.5em;
 	/* 24px/16px */
-	font-weight: normal;
+}
+
+.banner-content__name {
+	font-weight: 400;
+	letter-spacing: 5px;
+    line-height: 1.4;
+    color: #fff;
+    text-shadow: 11px 6px 2px #bfbfbf;
+    font-size: 1.2em;
+} 
+
+.banner-content__highlight {
+	color: #f8ff1c;
+	text-shadow: 4px 4px 2px #aaa;
 }
 
 @media(min-width: 38em) {
 	.banner-content {
-		padding: 7.5em 2em;
+		padding: 0em 2em;
 		/* 135px/18px - 36px/18px*/
 	}
 
 	.banner-content__heading {
 		font-size: 2.5em;
-
-
 	}
 }
 /* ----------------------------
@@ -127,6 +154,11 @@ cv
 .box-frame {
 	padding: 28px 0 0;
 }
+
+/* ----------------------------
+portfolio
+---------------------------- */
+
 /* ----------------------------
 features
 ---------------------------- */
