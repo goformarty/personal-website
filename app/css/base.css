@@ -65,6 +65,10 @@ p {
 	color:rgb(248,70,64);
 }
 
+.bold {
+	font-weight: bold;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
