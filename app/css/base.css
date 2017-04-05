@@ -75,6 +75,7 @@ p {
 
 .p-big {
 	font-size: 1em;
+	text-decoration: underline;
 }
 img {
 	max-width: 100%;
