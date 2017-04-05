@@ -123,10 +123,10 @@ banner-content
 	transition: text-shadow 0.2s, ease-in-out;
 }
 
-.banner-content__highlight:hover {
-    color: #f5ff78;
+.banner-content:hover .banner-content__highlight{
+	color: #f5ff78;
     text-shadow: 5px 5px 5px;
-}
+} 
 
 
 @media(min-width: 38em) {
@@ -142,6 +142,12 @@ banner-content
 /* ----------------------------
 cv
 ---------------------------- */
+.red-highlight:hover span {
+	color:rgb(255, 108, 103);
+	transition: 0.25s ease-in-out;
+}
+
+
 .box-holder {
 	width: 100%;
 	border: 3px solid #000;

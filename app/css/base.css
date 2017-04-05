@@ -69,6 +69,10 @@ p {
 	font-weight: bold;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -77,6 +81,7 @@ p {
 	font-size: 1em;
 	text-decoration: underline;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -119,6 +124,7 @@ hr {
 	max-width: 300px;
 	text-decoration: none;
 	text-align: center;
+	margin-right: 8px;
 }
 
 .btn:hover {
