@@ -55,7 +55,7 @@ header
 
 .header__nav a:focus, 
 .header__nav a:hover, 
-.header__nav a:active { color:rgb(248,70,64); }
+.header__nav a:active { color:rgb(255, 108, 103); }
 
 .header__nav a:after {
 	content: '';
@@ -66,7 +66,7 @@ header
 	left: 0;
 	bottom: -15px;
 	width: 100%;
-	background-color: rgba(248,70,64,0.8);
+	background-color: rgba(255, 108, 103, 0.8);
 	opacity: 0;
 	transition: 0.25s ease-in-out;
 }
